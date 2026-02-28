@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/count01"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/elevation_menu_01"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart2"
+            android:layout_width="match_parent"
+            android:layout_height="317dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/elevation_menu_01"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_Title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="日身體項目"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb1"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb2"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb3"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb4"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb5"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb6"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:text="cook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/spb7"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="cook" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
